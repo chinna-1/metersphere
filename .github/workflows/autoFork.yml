@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: chinnal-1/fork-sync@V1.0.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
           owner: fit2cloud # fork 的上游仓库 user
           head: main # fork 的上游仓库 branch
           base: main # 本地仓库 branch
